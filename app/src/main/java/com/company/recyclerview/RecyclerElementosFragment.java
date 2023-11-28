@@ -72,7 +72,7 @@ public class RecyclerElementosFragment extends Fragment {
         // asociar el Adaptador con el RecyclerView
         binding.recyclerView.setAdapter(elementosAdapter);
 
-        // obtener el array de Elementos, y pasarselo al Adaptador
+
         elementosViewModel.obtener().observe(getViewLifecycleOwner(), new Observer<List<Elemento>>() {
             @Override
             public void onChanged(List<Elemento> elementos) {
@@ -89,7 +89,7 @@ public class RecyclerElementosFragment extends Fragment {
         // referencia al Array que obtenemos del ViewModel
         List<Elemento> elementos;
 
-        // crear un nuevo ViewHolder
+
         @NonNull
         @Override
         public ElementoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
