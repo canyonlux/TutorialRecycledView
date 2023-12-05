@@ -39,7 +39,7 @@ public class ElementosRepositorio {
         elementos.add(new Elemento("Raticate", "La evolución final de Rattata, este Pokémon tipo normal es conocido por su naturaleza agresiva y su habilidad para masticar cualquier cosa."));
         elementos.add(new Elemento("Spearow", "Un pequeño Pokémon tipo normal/volador, conocido por su naturaleza agresiva y su habilidad para volar."));
         elementos.add(new Elemento("Fearow", "La evolución final de Spearow, este Pokémon tipo normal/volador es conocido por su naturaleza agresiva y su habilidad para volar."));
-
+        elementos.add(new Elemento("Ekans", "Un Pokémon tipo veneno, conocido por su naturaleza agresiva y su habilidad para morder."));
     }
 
 
