@@ -11,14 +11,37 @@ public class ElementosRepositorio {
         void cuandoFinalice(List<Elemento> elementos);
     }
 
-    ElementosRepositorio(){
-        elementos.add(new Elemento("Elemento químico", "Es un átomo con moléculas, aquella sustancia que no puede ser descompuesta mediante una reacción química, en otras más simples. Pueden existir dos átomos de un mismo elemento con características distintas y, en el caso de que estos posean número másico distinto, pertenecen al mismo elemento pero en lo que se conoce como uno de sus isótopos."));
-        elementos.add(new Elemento("Elemento de un conjunto", "En teoría de conjuntos, un elemento o miembro de un conjunto (o familia de conjuntos) es un objeto que forma parte de ese conjunto (o familia)."));
-        elementos.add(new Elemento("Elemento sintético", "En química, un elemento sintético es un elemento químico que no aparece de forma natural en la Tierra, y solo puede ser creado artificialmente."));
-        elementos.add(new Elemento("Elemento algebraico", "En matemáticas, más concretamente en álgebra abstracta y teoría de cuerpos, se dice que un elemento es algebraico sobre un cuerpo si es raíz de algún polinomio con coeficientes en dicho cuerpo. Los elementos algebraicos sobre el cuerpo de los números racionales reciben el nombre de números algebraicos."));
-        elementos.add(new Elemento("Elementos de la naturaleza","Los cuatro o cinco elementos de la naturaleza —normalmente agua, tierra, fuego y aire, a los que se añade la quintaesencia o éter— eran, para muchas doctrinas antiguas, los constituyentes básicos de la materia y explicaban el comportamiento de la naturaleza. El modelo estuvo vigente hasta que la ciencia moderna empezó a desentrañar los elementos y reacciones químicas."));
-        elementos.add(new Elemento("Elemento constructivo","Un elemento constructivo es cada uno de los componentes materiales que integran una obra de construcción. Se suelen clasificar en estructurales y compartimentadores."));
+    ElementosRepositorio() {
+        elementos.add(new Elemento("Pikachu", "Este Pokémon eléctrico es conocido por sus mejillas cargadas de electricidad, las cuales libera en ataques poderosos. Es muy ágil y puede liberar descargas eléctricas intensas."));
+        elementos.add(new Elemento("Bulbasaur", "Un Pokémon tipo planta/veneno. Este Pokémon crece una planta en su espalda desde el nacimiento, la cual se desarrolla a medida que crece y se fortalece con la luz solar."));
+        elementos.add(new Elemento("Mewtwo", "Un Pokémon psíquico creado genéticamente. Mewtwo es conocido por su inteligencia excepcional y sus poderosas habilidades psíquicas, lo que lo hace uno de los Pokémon más poderosos."));
+        elementos.add(new Elemento("Alakazam", "Un Pokémon psíquico con un IQ de más de 5000. Sus habilidades mentales le permiten recordar todo y usar increíbles poderes psíquicos."));
+        elementos.add(new Elemento("Charizard", "Este Pokémon tipo fuego/volador es la evolución final de Charmander. Es conocido por su poderosa llama que puede derretir cualquier cosa y su habilidad para volar."));
+        elementos.add(new Elemento("Gengar", "Un Pokémon tipo fantasma/veneno. Gengar es conocido por su naturaleza traviesa y su habilidad para ocultarse en las sombras y asustar a las personas."));
+        elementos.add(new Elemento("Squirtle", "Un pequeño Pokémon tipo agua, conocido por su caparazón duro y su habilidad para disparar chorros de agua a alta presión."));
+        elementos.add(new Elemento("Eevee", "Este Pokémon es conocido por su capacidad única para evolucionar en diversas formas dependiendo del entorno y otros factores."));
+        elementos.add(new Elemento("Magikarp", "Aunque a menudo considerado débil y sin habilidades especiales, este Pokémon tipo agua puede evolucionar al poderoso Gyarados."));
+        elementos.add(new Elemento("Snorlax", "Conocido por su tamaño y peso masivos, este Pokémon tipo normal es famoso por dormir profundamente y tener un apetito enorme."));
+        elementos.add(new Elemento("Jigglypuff", "Este Pokémon tipo normal/hada es conocido por su capacidad de cantar una canción de cuna que duerme a cualquiera que la escuche."));
+        elementos.add(new Elemento("Psyduck", "Un Pokémon tipo agua conocido por sus frecuentes dolores de cabeza, que a veces resultan en poderosas habilidades psíquicas."));
+        elementos.add(new Elemento("Lapras", "Este Pokémon tipo agua/hielo es conocido por su inteligencia y su capacidad para comprender el lenguaje humano, a menudo utilizado para transportar personas sobre el agua."));
+        elementos.add(new Elemento("Dragonite", "Un Pokémon tipo dragón/volador, conocido por su naturaleza amable y su habilidad para volar a velocidades supersónicas."));
+        elementos.add(new Elemento("Vaporeon", "Una de las evoluciones de Eevee, este Pokémon tipo agua puede fundirse con el agua y tiene habilidades de hidromanipulación."));
+        elementos.add(new Elemento("Arcanine", "Un Pokémon tipo fuego conocido por su velocidad y majestuosidad, a menudo descrito como magnífico y valiente."));
+        elementos.add(new Elemento("Machamp", "Este Pokémon tipo lucha es conocido por sus cuatro brazos, que le permiten lanzar una ráfaga de puñetazos a una velocidad increíble."));
+        elementos.add(new Elemento("Gyarados", "Evolución de Magikarp, este intimidante Pokémon tipo agua/volador es conocido por su temperamento feroz y sus poderosos ataques."));
+        elementos.add(new Elemento("Ditto", "Un Pokémon único por su habilidad para transformarse en cualquier otro Pokémon, copiando su apariencia y habilidades exactamente."));
+        elementos.add(new Elemento("Charmander", "Un pequeño Pokémon tipo fuego, conocido por la llama que arde en la punta de su cola, que refleja su salud y emociones."));
+        elementos.add(new Elemento("Mew", "Un Pokémon legendario tipo psíquico, conocido por su habilidad para aprender cualquier movimiento y su ADN único."));
+        elementos.add(new Elemento("Pidgeot", "La evolución final de Pidgey, este Pokémon tipo normal/volador es conocido por su velocidad y su habilidad para volar."));
+        elementos.add(new Elemento("Pidgey", "Un pequeño Pokémon tipo normal/volador, conocido por su naturaleza dócil y su habilidad para volar."));
+        elementos.add(new Elemento("Rattata", "Un pequeño Pokémon tipo normal, conocido por su naturaleza traviesa y su habilidad para masticar cualquier cosa."));
+        elementos.add(new Elemento("Raticate", "La evolución final de Rattata, este Pokémon tipo normal es conocido por su naturaleza agresiva y su habilidad para masticar cualquier cosa."));
+        elementos.add(new Elemento("Spearow", "Un pequeño Pokémon tipo normal/volador, conocido por su naturaleza agresiva y su habilidad para volar."));
+        elementos.add(new Elemento("Fearow", "La evolución final de Spearow, este Pokémon tipo normal/volador es conocido por su naturaleza agresiva y su habilidad para volar."));
+
     }
+
 
     List<Elemento> obtener() {
         return elementos;
